@@ -1,6 +1,6 @@
 # Import python packages
 import streamlit as st
-stereamlit.title('My Parents Diner')
+st.title('My Parents Diner')
 
 helpful_links = [
     "https://docs.streamlit.io",
