@@ -1,6 +1,6 @@
 # Import python packages
 import streamlit as st
-from snowflake.snowpark.functions import col
+stereamlit.title('My Parents Diner')
 
 helpful_links = [
     "https://docs.streamlit.io",
