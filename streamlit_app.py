@@ -1,6 +1,11 @@
 # Import python packages
 import streamlit as st
 st.title('My Parents Diner')
+# New Section
+import requests
+smoothiefroot_response = requests.get("https://my.smoothiefroot.com/api/fruit/watermelon")
+st.text(smoothiefroot_response)
+
 
 helpful_links = [
     "https://docs.streamlit.io",
